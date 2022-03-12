@@ -1,0 +1,338 @@
+/*Шапка-Header*/
+
+.bady {
+    position: fixed;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header-decor {
+    max-width: 1920px;
+    max-height: 911px;
+}
+
+.clas-logo {
+    position: relative;
+    bottom: 859px;
+    left: 250px;
+    font-family: 'HistoryPro-Two', sans-serif;
+    font-size: 24px;
+    color: #fec501;
+}
+
+.class-tel-text {
+    position: relative;
+    bottom: 930px;
+    left: 1400px;
+    color: #fec501;
+    font-family: 'montserrat_regular';
+    font-style: bolder;
+}
+
+.class-tel {
+    position: relative;
+    bottom: 930px;
+    left: 1400px;
+    font-size: 22px;
+    font-family: 'montserrat_regular';
+    font-style: bolder;
+    color: #fff;
+}
+
+
+/*Текст под логотипом*/
+
+.class-text-logo {
+    margin: 0;
+    position: relative;
+    left: 250px;
+    bottom: 850px;
+    width: 210px;
+    height: 51px;
+    font-family: 'montserrat_regular';
+    font-size: 11px;
+    color: #fff;
+}
+
+.class-test-header {
+    position: relative;
+    bottom: 430px;
+    font-size: 35px;
+    font-family: 'montserrat_regular';
+    color: #fff;
+}
+
+.fec551-big {
+    color: #fec501;
+    font-style: border;
+}
+
+.clas-text-nad_btn {
+    position: relative;
+    top: 20px;
+    right: 20px;
+    font-size: 14px;
+}
+
+.class-line {
+    color: #fec501;
+}
+
+
+/*_______________________________________*/
+
+
+/*3 block*/
+
+.class-main-text-one {
+    position: relative;
+    left: 510px;
+    bottom: 550px;
+    font-size: 34px;
+    color: #272626;
+    font-family: 'montserrat_regular';
+    font-weight: border;
+}
+
+.f-text {
+    color: #fec501;
+    font-weight: 500;
+}
+
+.class-block-p {
+    position: relative;
+    left: 390px;
+    width: 1320px;
+    margin: 0;
+}
+
+.class-main-text-one {
+    position: relative;
+    left: 628px;
+    bottom: 40px;
+    font-size: 35px;
+    font-family: 'montserrat_regular';
+    font-weight: bold;
+}
+
+
+/*--------------------------------*/
+
+.class-grass-one {
+    position: relative;
+    bottom: 990px;
+}
+
+.grass-r {
+    position: relative;
+    left: 1700px;
+    top: 0px;
+}
+
+
+/*--------------------------------*/
+
+
+/*foto*/
+
+.class-face-g {
+    position: relative;
+    bottom: 1150px;
+    left: 590px;
+}
+
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+
+.text-one {
+    position: relative;
+    bottom: 20px;
+    left: 700px;
+    font-size: 24px;
+    font-family: 'montserrat_regular', sans-serif;
+}
+
+.class-icon-svg {
+    position: relative;
+    left: 100px;
+}
+
+.one-i-img {
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+
+.one-b-img {
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+
+.one-s-img {
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+
+
+/*****************************+*/
+
+.class-block-s {
+    position: relative;
+    bottom: 10px;
+    left: 80px;
+    margin: 0 auto;
+    width: 320px;
+    height: 218px;
+    float: left;
+    border-radius: 10px;
+    background: #272626;
+    color: #5F5E5E;
+    width: 320px;
+    margin-right: 50px;
+}
+
+
+/*------------------------------------*/
+
+
+/*1 block*/
+
+.clas-one-block {
+    position: relative;
+    top: 250px;
+    right: 325px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #272626;
+    color: #5F5E5E;
+    width: 1055px;
+    height: 500px;
+    margin-right: 50px;
+}
+
+
+/********************************************/
+
+
+/*Линия в блоке с тестом*/
+
+.vl {
+    position: relative;
+    bottom: 1450px;
+    left: 815px;
+    border-left: 2px solid #5F5E5E;
+    height: 400px;
+}
+
+
+/*_________________________________________________________________*/
+
+.wrapper-main-section-wrapper {
+    font-family: 'montserrat_regular', sans-serif;
+    font-size: 35px;
+}
+
+.class-res {
+    color: #A8A8A8;
+    width: 330px;
+    height: 160px;
+}
+
+.instagram {
+    position: relative;
+    left: 50px;
+    bottom: 290px;
+}
+
+.ainur {
+    position: relative;
+    right: 50px;
+    font-family: 'montserrat_regular', sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.numb {
+    position: relative;
+    bottom: 93px;
+    font-size: 46px;
+    color: #fec501;
+    left: 120px;
+}
+
+
+/*::::::::::::::::::::::::::::::::::::::::::*/
+
+.class-block-x {
+    position: relative;
+    margin: 0%;
+    height: 400px;
+    width: 400px;
+    color: #fec501;
+}
+
+
+/*++++++++++++++++++++++*/
+
+.tex {
+    position: relative;
+    bottom: 10px;
+    left: 25px;
+    font-size: 19px;
+    font-family: 'montserrat_regular', sans-serif;
+}
+
+.hg {
+    position: relative;
+    bottom: 25px;
+    right: 19px;
+    font-size: 19px;
+    font-family: 'montserrat_regular', sans-serif;
+}
+
+.btxt {
+    position: relative;
+    bottom: 30px;
+    right: 81px;
+    font-size: 14px;
+    font-family: 'montserrat_regular', sans-serif;
+}
+
+.kl {
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+    font-family: 'montserrat_regular', sans-serif;
+}
+
+
+/*------------STAR icon-----------------------------*/
+
+.star {
+    position: relative;
+    bottom: 139px;
+    left: 20px;
+}
+
+
+/*FOTER*/
+
+.clas-one-footer {
+    position: relative;
+    margin-bottom: 0;
+    border-radius: 10px;
+    background: #272626;
+    color: #5F5E5E;
+    width: 1920px;
+    height: 150px;
+}
+
+.log-footer {
+    position: relative;
+    left: 150px;
+    bottom: 85px;
+    font-size: 45px;
+    color: #A8A8A8;
+}

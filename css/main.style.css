@@ -1,0 +1,172 @@
+    /*Шапка-Header*/
+    
+    @media (min-width: 1920px) {}
+    
+    .bady {
+        position: fixed;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    /*Логотип-Logo (DS Creative)*/
+    
+    .class-logo {
+        margin: 0%;
+        position: absolute;
+        bottom: 750px;
+        font-family: 'HistoryPro-Two', sans-serif;
+        left: 35px;
+        font-size: 24px;
+        color: #fec501;
+        font-style: bold;
+    }
+    /*Текст под логотипом*/
+    
+    .class-text-logo {
+        margin: 0;
+        position: relative;
+        left: 35px;
+        bottom: 685px;
+        width: 210px;
+        height: 51px;
+        font-family: 'montserrat_regular';
+        font-size: 11px;
+        color: #fff;
+    }
+    /*Два листа под логотипом*/
+    
+    .leaf-top {
+        position: absolute;
+        bottom: 830px;
+        right: 951px;
+    }
+    /*Текставый блок "Пройдите тест за 1 минуту
+и рассчитайте стоимость"*/
+    
+    .class-test-header {
+        position: absolute;
+        bottom: 580px;
+        left: 70px;
+        font-family: 'montserrat_regular';
+        font-size: 27px;
+        width: 434px;
+        height: 148px;
+        color: #fff;
+    }
+    
+    .fec551-big {
+        font-size: 27px;
+        font-style: bold;
+        color: #fec501;
+    }
+    /*Текст над кнопкой с линией использованно 2 класса "1).clas-text-nad_btn 2).class-line*/
+    
+    .clas-text-nad_btn {
+        margin: 0;
+        position: absolute;
+        left: 55px;
+        top: 180px;
+        font-size: 14px;
+    }
+    
+    .class-line {
+        font-size: 14px;
+        color: #fec501;
+    }
+    /*Листья с лева "grass-l.jpg"*/
+    
+    .grass-left {
+        position: absolute;
+        bottom: 150px;
+        left: -190px;
+    }
+    
+    .class-nad-img-job {
+        position: relative;
+        bottom: 890px;
+        left: 689px;
+        font-family: 'montserrat_regular', sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        width: 240px;
+        height: 38px;
+        color: #fff;
+    }
+    /*.pointer {
+    position: relative;
+    bottom: 690px;
+    right: 450px;
+}*/
+    /*Тело страницы "main"*/
+    /*Текстовый блок до нижниж 3х горозинтальных блоков*/
+    
+    .class-main-text-one {
+        position: absolute;
+        left: 440px;
+        font-family: 'montserrat_regular', sans-serif;
+        font-size: 35px;
+        font-weight: bolder;
+        color: black;
+    }
+    
+    #bolders-text {
+        color: #fec501;
+    }
+    
+    .text-one {
+        position: absolute;
+        margin: 55px;
+        left: 490px;
+        font-family: 'montserrat_regular', sans-serif;
+        font-size: 24px;
+    }
+    
+    .one-text {
+        text-decoration: underline;
+    }
+    /*3 блока в гаризонт*/
+    
+    .class-block-p {
+        position: relative;
+        left: 290px;
+        width: 1320px;
+        margin: 0;
+    }
+    
+    .class-block-s {
+        position: relative;
+        top: 120px;
+        margin: 0 auto;
+        width: 320px;
+        height: 218px;
+        float: left;
+        border-radius: 10px;
+        font-size: 15px;
+        font-family: 'montserrat_regular', sans-serif;
+        text-align: center;
+        background: #272626;
+        color: #5F5E5E;
+        width: 320px;
+        margin-right: 50px;
+    }
+    
+    .tb {
+        position: relative;
+        top: 150px;
+        font-size: 20px;
+        font-family: 'montserrat_regular', sans-serif;
+        color: #FFFCE3;
+        font-weight: bolder;
+    }
+    
+    .clas-one-block {
+        position: relative;
+        top: 450px;
+        right: 270px;
+        margin: 0 auto;
+        border-radius: 10px;
+        background: #272626;
+        color: #5F5E5E;
+        width: 1055px;
+        height: 300px;
+        margin-right: 50px;
+    }

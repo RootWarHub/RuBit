@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'HistoryPro-Two';
+    src: url(..//fonts/HistoryPro/HistoryPro-Two.woff2), url("../fonts/HistoryPro/HistoryPro-Two.woff");
+    font-size: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_regular';
+    src: url(..//fonts/monsterrat/fonts/montserrat_regular.woff2), url("../fonts/monsterrat/fonts/montserrat_regular.woff");
+    font-size: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MullerRegularItalic';
+    src: url(..//fonts/muller/MullerRegularItalic.woff2), url("../fonts/muller/MullerRegular.woff");
+    font-size: 320;
+    font-display: swap;
+    font-style: normal;
+}
+
+bady {
+    font-family: "'HistoryPro-Two'";
+}
+
+h1 {
+    font-weight: 300;
+}
