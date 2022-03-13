@@ -10,123 +10,168 @@
     <link rel="stylesheet" href="css/test.css">
     <link rel="stylesheet" href="css/font_style.css">
     <title>ds</title>
-    <style>
-        html {
-            overflow-x: hidden;
-        }
-        
-        div {
-            max-width: 1920px;
-            padding: 0px;
-        }
-    </style>
+<!--    все общие стили нужно задавать в style.css
+        табы в коде нужно чистить, пробел тоже символ, потому лишний tab только сделает файл тяжелее
+-->
+<!--    <style>-->
+<!--        html {-->
+<!--            overflow-x: hidden;-->
+<!--        }-->
+<!--        -->
+<!--        div {-->
+<!--            max-width: 1920px;-->
+<!--            padding: 0px;-->
+<!--        }-->
+<!--    </style>-->
 </head>
-<header>
-    <div class="header-decor">
-        <img class="header-decor" src="img/header-decor.jpg">
-    </div>
-    <div class="clas-logo"><strong id="ds-c">DS CREATIVE </strong></div>
+    <header>
+    <!--    тут ты не правильно использовал один и тот же класс "header-decor" для 2х разных элементов
+            так же задавай понятные имена классам.
 
+    -->
 
-    <div class="class-text-logo">Студия дизайн интерьера в Бишкеке.. От больших объектов до 1 комнатной квартиры до новоселья</div>
-    <div class="class-tel-text">Сейчас работаем</div>
-    <div class="class-tel"><a>0990203070</a></div>
-    <div class="container">
-        <ul id="slider">
-            <li><img src="img/images_heder-box/sld-ch.jpg" alt="" /></li>
-            <li><img src="img/images_heder-box/sld1ch.jpg" alt="" /></li>
-            <li><img src="img/images_heder-box/sld3.jpg" alt="" /></li>
-            <li><img src="img/images_heder-box/sld4ch.jpg" alt="" /></li>
-
-        </ul>
-
-        <ul id="dots">
-            <li class="active"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-
-        </ul>
-        <div class="class-test-header">
-            <strong>Пройдите тест</strong><span class="fec551-big"> за 1 минуту<br> и рассчитайте стоимость</span><br>дизайн интерьера под<br> ваш бюджет в Бишкеке
-            <div class="clas-text-nad_btn"><strong class="class-line">———— </strong>при оставлении заявки через сайт </div>
+    <!--    <div class="header-decor">-->
+    <!--        <img class="header-decor" src="img/header-decor.jpg">-->
+    <!--    </div>-->
+        <div class="header-decor">
+            <img class="header-decor-img" src="img/header-decor.jpg">
         </div>
-        <div class="clas-red-btn">Пройти тест и узнать <br>стоимость за 10 минут </div>
-        <div class="pointer"><img src="img/svg/ctr1.svg" alt="pointer"></div>
-        <div class="class-nad-img-job"><strong>Некоторые из наших работ <br>за ноябрь 2021 год</strong></div>
-
-
-
-
-
-</header>
-<main>
-
-</main>
-
-<body>
-    <div class="class-icon-svg"></div>
-
-
-
-
-    <div class="class-main-text-one">Пройдя<span class="f-text">  легкий  </span>мини-тест из 4 вопросов </div>
-    <div class="text-one">Вы получите не только <span id="one-text"></span> точный расчет но и</div>
-    <div class="class-block-p">
-        <div class="class-block-s"><img class="one-i-img" src="img/svg/client.svg">
+    <!--    не нужно использовать слово "class" в имене, и так ясно что это класс-->
+        <div class="clas-logo"> <strong id="ds-c">DS CREATIVE </strong></div>
+    <!--    желательно текст оборачивать в <span> или <article>-->
+    <!--    <div class="class-text-logo">Студия дизайн интерьера в Бишкеке.. От больших объектов до 1 комнатной квартиры до новоселья</div>-->
+        <div class="class-text-logo">
+            <span>
+                Студия дизайн интерьера в Бишкеке..От больших объектов до 1 комнатной квартиры до новоселья
+            </span>
         </div>
-        <div class="class-block-s"><img class="one-b-img" src="img/svg/gift-box.svg"></div>
-        <div class="class-block-s"><img class="one-s-img" src="img/svg/low-price.svg"></div>
-
-    </div>
-    <div class="clas-one-block"> </div>
-    <div class="class-grass-one">
-        <div><img src="img/grass-l.png" width="350" height="325"></div>
-        <img class="grass-r" src="img/grass-r.png" width="209" height="356">
-
-    </div>
-    <div class="class-face-g">
-        <img src="img/foto.png" width="145" height="145">
-        <div class="class-res">
-            <p>
-                <div class="ainur"> Айнура Анаркулова</h1>
-                    <h1 class="tex"> <br> Осноывтель дизайн</h1><br>
+        <!--    желательно текст оборачивать в <span> или <article>-->
+        <div class="class-tel-text"><span>Сейчас работаем</span></div>
+        <!--    у ссылки обязательно должен быть атрибут href=""-->
+    <!--    <div class="class-tel"><a>0990203070</a></div>-->
+        <div class="class-tel"><a href="/">0990203070</a></div>
+        <div class="container">
+    <!-- сохрани этот слайдер может пригодиться, но будем учиться использовать библиотеки-->
+            <ul id="slider">
+                <li><img src="img/images_heder-box/sld-ch.jpg" alt="" /></li>
+                <li><img src="img/images_heder-box/sld1ch.jpg" alt="" /></li>
+                <li><img src="img/images_heder-box/sld3.jpg" alt="" /></li>
+                <li><img src="img/images_heder-box/sld4ch.jpg" alt="" /></li>
+            </ul>
+            <ul id="dots">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="class-test-header">
+    <!--            старйся использовать понятные имена классов !fec551-big! плохой пример -->
+                <strong>Пройдите тест</strong>
+                <span class="fec551-big"> за 1 минуту<br> и рассчитайте стоимость</span>
+                <br>дизайн интерьера под<br> ваш бюджет в Бишкеке
+    <!--            прикольно решил вопрос с линией ,тут пригодятся знания всевдоклосов after & before
+                    для кнопки есть специальный тег <button></>button>
+    -->
+                <div class="clas-text-nad_btn"><strong class="class-line"> ———— </strong>при оставлении заявки через сайт </div>
+            </div>
+            <!--    для кнопки есть специальный тег <button></>button>-->
+    <!--        <div class="clas-red-btn">Пройти тест и узнать <br>стоимость за 10 минут </div>-->
+            <div class="clas-red-btn"> <button>Пройти тест и узнать <br>стоимость за 10 минут</button> </div>
+            <div class="pointer">
+                <img src="img/svg/ctr1.svg" alt="pointer">
+            </div>
+            <div class="class-nad-img-job"><strong>Некоторые из наших работ <br>за ноябрь 2021 год</strong></div>
+    <!--        не закрыл div container пиши код вкладывая теги друг в друга с табуляцией (каждый вложенный элемент на 1 tab правее родителя),
+                что бы было наглядно видно  -->
+        </div>
+    </header>
+    <!-- принято в тег  <main> вкладывать весь соновной контент страницы он у тебя пустой -->
+    <!--<main>-->
+    <!--</main>-->
+    <body>
+        <!-- зачем пустой div ? -->
+        <!--    <div class="class-icon-svg"></div>-->
+        <main>
+            <div class="class-main-text-one">
+                Пройдя<span class="f-text">  легкий  </span>мини-тест из 4 вопросов
+            </div>
+            <div class="text-one">Вы получите не только <span id="one-text"></span> точный расчет но и</div>
+            <div class="class-block-p">
+                <div class="class-block-s">
+                    <img class="one-i-img" src="img/svg/client.svg">
                 </div>
-                <h1 class="hg">
-                    <p>студии DS Creative</p>
-                </h1>
-                <br><br>
-                <h1 class="btxt"> "Проектируемый нами дизайн интерьера<br> полностью раскроет внутрениий мир его<br> владельца, наполнит каждый<br> сантиметрпространства удобством, <br>уютом смыслом и красотой. Это и есть<br> продуманной до мелочей дизайн."</h1><br>
-                <br>
-                <h1 class="kl">Опыт более<br> лет</h1>
-                <h1>
-                    <p>
+                <div class="class-block-s">
+                    <img class="one-b-img" src="img/svg/gift-box.svg">
+                </div>
+                <div class="class-block-s">
+                    <img class="one-s-img" src="img/svg/low-price.svg">
+                </div>
+
+            </div>
+        <!--    зачем div, если он пустой? ,блок это контайнер, если он есть значит для чего то, если нечего в него ложить то и он сам не нужен-->
+        <!--    <div class="clas-one-block"> </div>-->
+            <div class="clas-one-block">
+                <div class="class-face-g">
+                    <img src="img/foto.png" width="145" height="145">
+                    <div class="class-res">
+        <!--                в <р> помещается только для текст, но никак не блоки и заголовки-->
+                        <div class="ainur">
+                            <h1 class="tex"> Айнура Анаркулова <br> Осноывтель дизайн</h1><br>
+                        </div>
+        <!--                либо создаешь заголовок либо параграф, но никак одно в другом-->
+                        <h1 class="hg">
+                          студии DS Creative
+                        </h1>
+                        <br><br>
+                        <h1 class="btxt">
+                            "Проектируемый нами дизайн интерьера<br>
+                            полностью раскроет внутрениий мир его<br>
+                            владельца, наполнит каждый<br>
+                            сантиметрпространства удобством,<br>
+                            уютом смыслом и красотой. Это и есть<br>
+                            продуманной до мелочей дизайн."
+                        </h1>
+                        <br>
+                        <br>
+                        <h1 class="kl">Опыт более<br> лет</h1>
+        <!--                лишний h1 & p-->
                         <h1 class="numb">6</h1>
-                    </p>
-                    <img class="instagram" src="img/svg/instagram.svg" width="21" height="21"> </p>
-            <img class="star" src="img/svg/icon-star.svg">
-        </div>
-    </div>
-    <div class="vl"></div>
-    <!--///////////////////////////////////////////////-->
-    <div class="class-block-x">
-        <div class="class-x">1</div>
-        <div class="class-x">2</div>
-    </div>
+                        <img class="instagram" src="img/svg/instagram.svg" width="21" height="21">
+                        <img class="star" src="img/svg/icon-star.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="class-grass-one">
+        <!--        старайся каждому div задавать class-->
+                <div class="some-name">
+        <!--            не задавай размеры в html только в css-->
+                    <img src="img/grass-l.png" width="350" height="325">
+                </div>
+                <img class="grass-r" src="img/grass-r.png" width="209" height="356">
+
+            </div>
+            <!--    зачем div, если он пустой? ,блок это контайнер, если он есть значит для чего то, если нечего в него ложить то и он сам не нужен-->
+        <!--    <div class="vl"></div>-->
+            <!--///////////////////////////////////////////////-->
+            <div class="class-block-x">
+                <div class="class-x">1</div>
+                <div class="class-x">2</div>
+            </div>
 
 
-    <!--///////////////////////////////////////////////////-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="js/script.js"></script>
-    <footer>
+            <!--///////////////////////////////////////////////////-->
+        <!--    скрипты подрубай только в самом конце, после всей страницы то есть в конце footer-->
+        <!--    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>-->
+        <!--    <script src="js/script.js"></script>-->
+        </main>
+        <footer>
 
-        <div class="clas-one-footer"></div>
-        <dif class="log-footer">DS CREATIVE</dif>
-
-
-    </footer>
-</body>
-
-
-
+                <div class="clas-one-footer"></div>
+                <div class="log-footer">DS CREATIVE</div>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script src="js/script.js"></script>
+            </footer>
+    </body>
 </html>
+
+<!--слишком много css для такого сайта и не поймешь, где что лежит. Создаешь 1 главный css и пишешь там все. -->

@@ -13,8 +13,9 @@
 
 .clas-logo {
     position: relative;
-    bottom: 859px;
-    left: 250px;
+    /*bottom: 859px;*/
+    /*left: 250px;*/
+    max-width: 300px;
     font-family: 'HistoryPro-Two', sans-serif;
     font-size: 24px;
     color: #fec501;
@@ -22,8 +23,8 @@
 
 .class-tel-text {
     position: relative;
-    bottom: 930px;
-    left: 1400px;
+    /*bottom: 930px;*/
+    /*left: 1400px;*/
     color: #fec501;
     font-family: 'montserrat_regular';
     font-style: bolder;
@@ -31,8 +32,8 @@
 
 .class-tel {
     position: relative;
-    bottom: 930px;
-    left: 1400px;
+    /*bottom: 930px;*/
+    /*left: 1400px;*/
     font-size: 22px;
     font-family: 'montserrat_regular';
     font-style: bolder;
@@ -45,8 +46,8 @@
 .class-text-logo {
     margin: 0;
     position: relative;
-    left: 250px;
-    bottom: 850px;
+    /*left: 250px;*/
+    /*bottom: 850px;*/
     width: 210px;
     height: 51px;
     font-family: 'montserrat_regular';
@@ -69,8 +70,8 @@
 
 .clas-text-nad_btn {
     position: relative;
-    top: 20px;
-    right: 20px;
+    /*top: 20px;*/
+    /*right: 20px;*/
     font-size: 14px;
 }
 
@@ -86,8 +87,8 @@
 
 .class-main-text-one {
     position: relative;
-    left: 510px;
-    bottom: 550px;
+    /*left: 510px;*/
+    /*bottom: 550px;*/
     font-size: 34px;
     color: #272626;
     font-family: 'montserrat_regular';
@@ -99,17 +100,24 @@
     font-weight: 500;
 }
 
+/*.class-block-p {*/
+/*    position: relative;*/
+/*    left: 390px;*/
+/*    width: 1320px;*/
+/*    margin: 0;*/
+/*}*/
 .class-block-p {
     position: relative;
-    left: 390px;
-    width: 1320px;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
 }
-
 .class-main-text-one {
     position: relative;
-    left: 628px;
-    bottom: 40px;
+    /*left: 628px;*/
+    /*bottom: 40px;*/
     font-size: 35px;
     font-family: 'montserrat_regular';
     font-weight: bold;
@@ -125,8 +133,8 @@
 
 .grass-r {
     position: relative;
-    left: 1700px;
-    top: 0px;
+    /*left: 1700px;*/
+    /*top: 0px;*/
 }
 
 
@@ -136,9 +144,17 @@
 /*foto*/
 
 .class-face-g {
-    position: relative;
-    bottom: 1150px;
-    left: 590px;
+    /*position: relative;*/
+    /*bottom: 1150px;*/
+    /*left: 590px;*/
+    position: revert;
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
@@ -146,51 +162,56 @@
 
 .text-one {
     position: relative;
-    bottom: 20px;
-    left: 700px;
+    /*bottom: 20px;*/
+    /*left: 700px;*/
     font-size: 24px;
     font-family: 'montserrat_regular', sans-serif;
 }
 
 .class-icon-svg {
     position: relative;
-    left: 100px;
+    /*left: 100px;*/
 }
 
 .one-i-img {
     position: relative;
-    top: 20px;
-    left: 120px;
+    /*top: 20px;*/
+    /*left: 120px;*/
 }
 
 .one-b-img {
     position: relative;
-    top: 20px;
-    left: 120px;
+    /*top: 20px;*/
+    /*left: 120px;*/
 }
 
 .one-s-img {
     position: relative;
-    top: 20px;
-    left: 120px;
+    /*top: 20px;*/
+    /*left: 120px;*/
 }
 
 
 /*****************************+*/
 
 .class-block-s {
+    /*position: relative;*/
+    /*bottom: 10px;*/
+    /*left: 80px;*/
+    /*margin: 0 auto;*/
+    /*width: 320px;*/
+    /*height: 218px;*/
+    /*float: left;*/
+    /*border-radius: 10px;*/
+    /*background: #272626;*/
+    /*color: #5F5E5E;*/
+    /*width: 320px;*/
+    /*margin-right: 50px;*/
     position: relative;
-    bottom: 10px;
-    left: 80px;
-    margin: 0 auto;
     width: 320px;
     height: 218px;
-    float: left;
     border-radius: 10px;
     background: #272626;
-    color: #5F5E5E;
-    width: 320px;
-    margin-right: 50px;
 }
 
 
@@ -199,17 +220,25 @@
 
 /*1 block*/
 
+/*        2 раза задал margin*/
 .clas-one-block {
-    position: relative;
-    top: 250px;
-    right: 325px;
+    /*position: relative;*/
+    /*top: 250px;*/
+    /*right: 325px;*/
+    /*margin: 0 auto;*/
+    /*border-radius: 10px;*/
+    /*background: #272626;*/
+    /*color: #5F5E5E;*/
+    /*width: 1055px;*/
+    /*height: 500px;*/
+    /*margin-right: 50px;*/
+    position: revert;
     margin: 0 auto;
     border-radius: 10px;
     background: #272626;
     color: #5F5E5E;
     width: 1055px;
     height: 500px;
-    margin-right: 50px;
 }
 
 
@@ -220,8 +249,8 @@
 
 .vl {
     position: relative;
-    bottom: 1450px;
-    left: 815px;
+    /*bottom: 1450px;*/
+    /*left: 815px;*/
     border-left: 2px solid #5F5E5E;
     height: 400px;
 }
@@ -235,6 +264,7 @@
 }
 
 .class-res {
+    position: revert;
     color: #A8A8A8;
     width: 330px;
     height: 160px;
@@ -242,13 +272,12 @@
 
 .instagram {
     position: relative;
-    left: 50px;
-    bottom: 290px;
+    /*left: 50px;*/
+    /*bottom: 290px;*/
 }
 
 .ainur {
     position: relative;
-    right: 50px;
     font-family: 'montserrat_regular', sans-serif;
     font-size: 24px;
     color: #fff;
@@ -256,10 +285,10 @@
 
 .numb {
     position: relative;
-    bottom: 93px;
+    /*bottom: 93px;*/
     font-size: 46px;
     color: #fec501;
-    left: 120px;
+    /*left: 120px;*/
 }
 
 
@@ -278,32 +307,36 @@
 
 .tex {
     position: relative;
-    bottom: 10px;
-    left: 25px;
+    /*bottom: 10px;*/
+    /*left: 25px;*/
+    text-align: center;
     font-size: 19px;
     font-family: 'montserrat_regular', sans-serif;
 }
 
 .hg {
     position: relative;
-    bottom: 25px;
-    right: 19px;
+    /*bottom: 25px;*/
+    /*right: 19px;*/
+    text-align: center;
     font-size: 19px;
     font-family: 'montserrat_regular', sans-serif;
 }
 
 .btxt {
     position: relative;
-    bottom: 30px;
-    right: 81px;
+    /*bottom: 30px;*/
+    /*right: 81px;*/
     font-size: 14px;
+    text-align: center;
     font-family: 'montserrat_regular', sans-serif;
 }
 
 .kl {
     position: relative;
-    bottom: 50px;
-    right: 10px;
+    /*bottom: 50px;*/
+    /*right: 10px;*/
+    text-align: center;
     font-family: 'montserrat_regular', sans-serif;
 }
 
@@ -312,8 +345,8 @@
 
 .star {
     position: relative;
-    bottom: 139px;
-    left: 20px;
+    /*bottom: 139px;*/
+    /*left: 20px;*/
 }
 
 
@@ -331,8 +364,8 @@
 
 .log-footer {
     position: relative;
-    left: 150px;
-    bottom: 85px;
+    /*left: 150px;*/
+    /*bottom: 85px;*/
     font-size: 45px;
     color: #A8A8A8;
 }
